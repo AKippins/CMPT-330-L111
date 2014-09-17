@@ -87,6 +87,7 @@ public class AddData extends JFrame {
 	}
 
 	protected void do_btnDone_actionPerformed(ActionEvent e) {
+		Item item = new Item(addFieldFirst.getText(),addFieldSecond.getText(),addFieldThird.getText());
 		this.dispose();
 	}
 }

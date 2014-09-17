@@ -22,6 +22,8 @@ public class Sharing extends JFrame {
 	private final JTextField sharingField3 = new JTextField();
 	private final JButton btnAdd = new JButton("Add");
 	private final JButton btnUpdate = new JButton("Update");
+	Item Item = new Item(String myFirstVal, String mySecondVal, String myThirdVal);
+	
 
 	/**
 	 * Launch the application.
@@ -49,6 +51,7 @@ public class Sharing extends JFrame {
 		sharingField2.setText("");
 		sharingField2.setBounds(182, 97, 86, 20);
 		sharingField2.setColumns(10);
+		sharingField1.setText("");
 		sharingField1.setBounds(182, 72, 86, 20);
 		sharingField1.setColumns(10);
 		jbInit();

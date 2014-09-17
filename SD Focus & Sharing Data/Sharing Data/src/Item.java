@@ -1,4 +1,3 @@
-
 public class Item {
 	private String myFirstVal;
 	private String mySecondVal;
@@ -23,10 +22,8 @@ public class Item {
 		this.myThirdVal = myThirdVal;
 	}
 
-	public Item() {
-		myFirstVal;
-		mySecondVal;
-		myThirdVal;
+	public Item(String myFirstVal, String mySecondVal, String myThirdVal) {
+		
 	}
 	
 
